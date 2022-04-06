@@ -62,13 +62,11 @@ export default class Root extends React.Component<any, ComponentState> {
                   <td>{employee.first_name}</td>
                   <td>{employee.last_name}</td>
                   <td>{employee.email}</td>
-                  <td><Link to={`/home`}> Go to Home Page</Link></td>
                 </tr>
               );
             })}
           </tbody>
         </table>
-        <em>{this.props.name} using React</em>
       </BrowserRouter>
     );
   }
